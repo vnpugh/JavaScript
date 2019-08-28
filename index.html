@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Velvet's Favorite Books</title>
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container"></div>
+            <h1 class="display-5">My Favorite Books</h1>
+        </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/Pi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">The Life of Pi by Yann Martel</h6>
+                        <button type="button" class="btn btn-primary" id="0" onclick="bookComponent(id)">Show
+                            Description</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/home.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Home by Toni Morrison</h6>
+                        <button type="button" class="btn btn-primary" id="1" onclick="bookComponent(id)">Show Description</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/outliers.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Outliers by Malcolm Gladwell</h6>
+                        <button type="button" class="btn btn-primary" id="2" onclick="bookComponent(id)">Show Description</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/alchemist.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">The Alchemist by Paulo Coelho</h6>
+                        <button type="button" class="btn btn-primary" id="3" onclick="bookComponent(id)">Show Description</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/games.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Hunger Games by Suzanne Collins</h6>
+                        <button type="button" class="btn btn-primary" id="4" onclick="bookComponent(id)">Show Description</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <p id="description"></p>
+                <p id="plot"></p>
+            </div>
+        </div>
+
+        <script src="js/event.js"></script>
+</body>
+
+</html>
